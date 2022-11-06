@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CowsController">
+   <left>
+      <VBox prefHeight="535.0" prefWidth="197.0" styleClass="sidebar" stylesheets="@../application/application.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="112.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/project%20img/HM_Dairy-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/vache-removebg-preview.png" />
+                     </image> 
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="36.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Cow" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="35.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="46.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/herb-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="53.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Food" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="32.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/health-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Health" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="17.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="44.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/milk-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="161.0" style="-fx-background-color: transparent;" text="Milk Production" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="24.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/sale-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Milk Sales" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/fiance-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Finance" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            
+            <HBox prefHeight="18.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/project%20img/Employee__business_man-removebg-preview%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Employee" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell Italic" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="Log Out" textAlignment="CENTER">
+               <font>
+                  <Font name="Dubai Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <ImageView fitHeight="526.0" fitWidth="665.0" pickOnBounds="true" smooth="false" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../images/project%20img/HM_Dairy-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>
